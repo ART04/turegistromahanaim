@@ -1,0 +1,168 @@
+* {
+	padding:0;
+	margin:0;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+footer{
+    width: 100%;
+    background: #202020;
+    color: white;  
+    z-index: 10000;
+    position: relative;
+    
+    
+    
+    
+}
+
+.container-footer-all{
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+    padding: 40px;
+    z-index: 10000;
+}
+
+.container-body{
+    display: flex;
+    justify-content: space-between;
+    z-index: ;10000;
+}
+
+.colum1{
+    max-width: 400px;
+}
+
+.colum1 h1{
+    font-size: 22px;
+}
+
+.colum1 p{
+    font-size: 14px;
+    color: #C7C7C7;
+    margin-top: 20px;
+}
+.colum1 iframe{
+    margin-top: 20px;
+        width:460px;
+    height: 300px;
+        
+}
+.colum2{
+    max-width: 400px;
+    
+}
+
+.colum2 h1{
+    font-size: 22px;
+}
+
+.row{
+    margin-top: 20px;
+    display: flex;
+
+}
+
+.row img{
+    width: 36px;
+    height: 36px;
+    
+}
+
+.row label{
+    margin-top: 10px;
+    margin-left: 20px;
+    color: #C7C7C7;
+    z-index: 2000;
+}
+
+.colum3{
+    max-width: 400px;
+}
+
+.colum3 h1{
+    font-size: 22px;
+}
+
+.row2{
+    margin-top: 20px;
+    display: flex;
+}
+
+.row2 img{
+    width: 36px;
+    height: 36px;
+}
+
+.row2 label{
+    margin-top: 10px;
+    margin-left: 20px;
+    max-width: 140px;
+    
+}
+
+
+.container-footer{
+    width: 100%;  
+    background: #101010;
+    z-index: 10000;
+}
+
+.footer{
+    max-width: 1200px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;  
+    padding: 20px;
+z-index: 10000;
+}
+
+.copyright{
+    color: #C7C7C7;
+}
+
+.copyright a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+     z-index: 20000;
+}
+
+.information a{
+    text-decoration: none;
+    color: #C7C7C7;
+    z-index: 2000;
+}
+
+
+@media screen and (max-width: 1100px){
+    
+    .container-body{
+        flex-wrap: wrap;
+    }
+    
+    .colum1{
+        max-width: 100%;
+    }
+    
+    .colum2,
+    .colum3{
+        margin-top: 40px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
